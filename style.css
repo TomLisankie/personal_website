@@ -6,6 +6,8 @@ body {
   /* so this means I might have to change the padding top for body based on what I have for navbar"
   /* maybe makes a difference once I go */
   padding-top: 120px;
+
+  min-height: 100vh;
 }
 
 p {
@@ -40,6 +42,7 @@ p.heading{
   vertical-align: bottom;
   /* this padding makes up for the 15 pixel weirdness when shrunk and magnified */
   padding-left: 28px;
+  letter-spacing: 3px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -82,9 +85,21 @@ so, incrementally, there will be white space around the content */
 
 }
 
-.about_me {
+/*.about_me {
   max-width: 560px;
+}*/
+
+.about_banner {
+  width: 100%;
+  min-width: 1200px;
+  padding-bottom: 30px;
 }
+
+p.about {
+  font-size: 25px;
+
+}
+
 
 
 /* Teaching
@@ -92,7 +107,9 @@ so, incrementally, there will be white space around the content */
 .teaching_image {
   width: 100%;
   padding-left: 15px;
-  padding-bottom:15px;
+  padding-bottom:30px;
+
+
 
 }
 
