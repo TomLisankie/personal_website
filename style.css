@@ -1,4 +1,7 @@
-/* Move down content because we have a fixed navbar that is 50px tall */
+
+/* General
+-------------------------------------------------- */
+
 body {
   /* so this means I might have to change the padding top for body based on what I have for navbar"
   /* maybe makes a difference once I go */
@@ -9,12 +12,17 @@ p {
   font-family: raleway, sans-serif;
   text-align: justify;
   padding-bottom: 15px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
+p.heading{
+  font-size: 18px;
+  letter-spacing: 1.8px;
 
-/* Nav Bar
------------------------------------ */
+}
+
+/* Nav bar
+-------------------------------------------------- */
 
 .navbar-default {
   background: white;
@@ -62,49 +70,8 @@ so, incrementally, there will be white space around the content */
 }
 
 
-/*
- * Main content
- */
 
-/*.main {
-  padding: 20px;
-}
-@media (min-width: 768px) {
-  .main {
-    padding-right: 40px;
-    padding-left: 40px;
-  }
-}
-.main .page-header {
-  margin-top: 0;
-}*/
-
-
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
-
-/*body > .container {
-  padding: 60px 15px 0;
-}
-.container .text-muted {
-  margin: 20px 0;
-}
-
-.footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-code {
-  font-size: 80%;
-}*/
-
-
-
-
-
-/* About Me CSS
+/* About Me
 -------------------------------------------------- */
 .portrait {
   width: 100%;
@@ -120,8 +87,18 @@ code {
 }
 
 
+/* Teaching
+-------------------------------------------------- */
+.teaching_image {
+  width: 100%;
+  padding-left: 15px;
+  padding-bottom:15px;
 
-/* Sticky footer styles
+}
+
+
+
+/* Sticky footer
 -------------------------------------------------- */
 
 
@@ -140,6 +117,8 @@ html {
   padding-left: 15px;
   font-family: raleway, sans-serif;
 }
+
+
 
 
 
