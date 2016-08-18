@@ -6,8 +6,10 @@ body {
 }
 
 p {
-  font-family: raleway, sans-seif;
+  font-family: raleway, sans-serif;
   text-align: justify;
+  padding-bottom: 15px;
+  font-size: 13px;
 }
 
 
@@ -19,6 +21,7 @@ p {
   border-color: white;
   font-family: raleway, sans-serif;
   padding: 35px 0px 0px 0px;
+  letter-spacing: 1.8px;
 }
 
 .navbar-default .navbar-brand {
@@ -32,14 +35,14 @@ p {
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: rgb(155);
-  font-size: 13;
+  color: #7f7d7d;
   font-family: raleway, sans-serif;
   vertical-align: bottom;
   padding-bottom: 0;
   /* this padding makes up for the 15 pixel weirdness when shrunk and magnified */
   padding-right: 30px;
   padding-left: 0px;
+  font-size: 13px;
 }
 
 
@@ -77,27 +80,6 @@ so, incrementally, there will be white space around the content */
 }*/
 
 
-
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5;
-}
-
-
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
@@ -125,13 +107,39 @@ code {
 /* About Me CSS
 -------------------------------------------------- */
 .portrait {
-  float: right;
-  border: 1px solid #eee;
   width: 100%;
-  max-width: 720px;
+  max-width: 560px;
+  clear: left;
+  padding-bottom: 10px;
+
 
 }
 
+.about_me {
+  max-width: 560px;
+}
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: white;
+  padding-left: 15px;
+  font-family: raleway, sans-serif;
+}
 
 
 
