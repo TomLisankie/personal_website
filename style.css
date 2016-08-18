@@ -2,33 +2,33 @@
 body {
   /* so this means I might have to change the padding top for body based on what I have for navbar"
   /* maybe makes a difference once I go */
-  padding-top: 50px;
-  margin-left: 20px;
+  padding-top: 120px;
 }
+
+p {
+  font-family: raleway, sans-seif;
+  text-align: justify;
+}
+
 
 /* Nav Bar
 ----------------------------------- */
 
-
-
 .navbar-default {
   background: white;
   border-color: white;
-  margin: 15px 25px 0px 25px;
   font-family: raleway, sans-serif;
+  padding: 35px 0px 0px 0px;
 }
-
-/*.navbar-default .navbar-brand,
-.navbar-default .navbar-nav>li>a {
-  color: black;
-}*/
 
 .navbar-default .navbar-brand {
   color: black;
   font-size: 28px;
   font-family: raleway, sans-serif;
   font-weight: 800;
-  vertical-align: bottom
+  vertical-align: bottom;
+  /* this padding makes up for the 15 pixel weirdness when shrunk and magnified */
+  padding-left: 28px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -37,6 +37,9 @@ body {
   font-family: raleway, sans-serif;
   vertical-align: bottom;
   padding-bottom: 0;
+  /* this padding makes up for the 15 pixel weirdness when shrunk and magnified */
+  padding-right: 30px;
+  padding-left: 0px;
 }
 
 
@@ -46,37 +49,16 @@ so, incrementally, there will be white space around the content */
   .container-fluid {
     width: 1680px;
   }
-}
-
-/* this is for when we break into dropdown nav mode.
-   this keeps the margin values the same. */
-@media (max-width: 768px) {
-  .navbar-default {
-    /* top value must match what is in nav-bar default*/
-    margin: 15px 0px 0px 0px;
-  }
-}
-
-/* not sure if I need this -- should test on bigger computer */
-/*@media (min-width: 768px) {
- .container { max-width: 1680px;
-  }
-  .navbar-default {
-    max-width: 1680px;
-
-  }
-}*/
-
-
-
-/*@media (max-width: 1280px) {
-  .navbar-default {
-    margin: 15px 25px 0px 25px;
-  }
 
 }
 
-*/
+@media (max-width: 1680px) {
+  .container-fluid {
+    margin: 0px 35px 0px 35px;
+  }
+}
+
+
 /*
  * Main content
  */
@@ -120,7 +102,7 @@ body {
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
-body > .container {
+/*body > .container {
   padding: 60px 15px 0;
 }
 .container .text-muted {
@@ -134,9 +116,21 @@ body > .container {
 
 code {
   font-size: 80%;
+}*/
+
+
+
+
+
+/* About Me CSS
+-------------------------------------------------- */
+.portrait {
+  float: right;
+  border: 1px solid #eee;
+  width: 100%;
+  max-width: 720px;
+
 }
-
-
 
 
 
