@@ -152,11 +152,20 @@ p.cv_categories {
 }
 
 /* the container for each cv "chunk"
-   including the header, description, etc. */
+   e.g.: all of the items under work experience */
 .cv_section {
-  max-width: 750px;
+  max-width: 850px;
+  padding: 0px;
+}
+
+.cv_item {
   padding: 0px;
   margin-bottom: 15px;
+
+}
+
+.cv_headings {
+  text-align: left;
 }
 
 p.cv_header, p.cv_subheader {
@@ -164,11 +173,11 @@ p.cv_header, p.cv_subheader {
   letter-spacing: 1.8px;
   padding: 0px;
   margin: 0px;
-
+  text-align: left;
 }
 
 p.cv_description {
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 /* the container for heading details */
@@ -197,7 +206,7 @@ p.cv_heading_details {
 
 
 .col-md-12.cv_divider {
-  width: 100%;
+  /*width: 100%;*/
   height: 1px;
   background-color: #eee;
   margin-left: 15px;
@@ -208,6 +217,15 @@ p.cv_heading_details {
 
 .cv_divider_outer {
   margin-right: 30px;
+}
+
+
+/* style for descriptions that are smaller --list format.
+   e.g. skills, or talks, etc.
+   Mostly, this is to get rid of padding on top.
+*/
+p.cv_description_list {
+  padding-top: 2px;
 }
 
 
