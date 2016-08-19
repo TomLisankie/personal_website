@@ -107,7 +107,6 @@ so, incrementally, there will be white space around the content */
 
 p.about {
   font-size: 25px;
-
 }
 
 
@@ -147,16 +146,40 @@ p.about {
 /* CV
 -------------------------------------------------- */
 p.cv_header {
-  padding: 0;
-
-
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  padding: 0px;
+  margin: 0px;
 }
 
-.col-md-12 {
+
+p.cv_section_header {
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  padding: 0px;
+  text-align: left;
+}
+
+p.cv_description {
+  max-width: 600px;
+}
+
+.col-md-12.cv_divider {
+  width: 100%;
+  height: 1px;
   background-color: #eee;
-  margin-top: 17px;
-  margin-bottom: 17px;
-  margin-left: 100px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.cv_divider_outer {
+  margin-right: 30px;
+}
+
+.date{
+  /*text-align: right*/
 }
 
 
