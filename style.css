@@ -7,7 +7,6 @@ body {
   /* maybe makes a difference once I go */
   padding-top: 120px;
 
-  min-height: 100vh;
 }
 
 p {
@@ -22,6 +21,17 @@ p.heading{
   letter-spacing: 1.8px;
 
 }
+
+.unpad {
+  padding-left: 0px;
+  margin-left: 0px;
+
+}
+
+
+/*.container-fluid.content {
+  min-height: 100vh - 500px;
+}*/
 
 /* Nav bar
 -------------------------------------------------- */
@@ -76,7 +86,7 @@ so, incrementally, there will be white space around the content */
 
 /* About Me
 -------------------------------------------------- */
-.portrait {
+/*.portrait {
   width: 100%;
   max-width: 560px;
   clear: left;
@@ -84,7 +94,7 @@ so, incrementally, there will be white space around the content */
 
 
 }
-
+*/
 /*.about_me {
   max-width: 560px;
 }*/
@@ -111,6 +121,42 @@ p.about {
 
 
 
+}
+
+
+
+
+/* Projects
+-------------------------------------------------- */
+.project_square_images {
+  width: 100%;
+}
+
+.project_square {
+  padding: 10px;
+}
+
+
+.project_container {
+  /* padding must be 15 px minus padding on the project square */
+  padding: 5px;
+}
+
+
+
+/* CV
+-------------------------------------------------- */
+p.cv_header {
+  padding: 0;
+
+
+}
+
+.col-md-12 {
+  background-color: #eee;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  margin-left: 100px;
 }
 
 
