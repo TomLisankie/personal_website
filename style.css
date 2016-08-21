@@ -132,13 +132,34 @@ p.about {
   padding: 10px;
 }
 
+.project_square_background {
+  background-color: black;
+  /* this stuff centers the project text in the middle of the square */
+  position: relative;
+  overflow: hidden;
+}
+
 
 .project_container {
   /* padding must be 15 px minus padding on the project square */
   padding: 5px;
 }
 
-
+.project_text {
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 3px;
+  /* this centers the project text in the middle of the square */
+  position: absolute;
+  margin-top: 50%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
 
 /* CV
 -------------------------------------------------- */
