@@ -28,6 +28,17 @@ p.heading{
 
 }
 
+a {
+  color: rgb(150, 150, 150);
+  font-weight: 300;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+}
+
 
 
 /*.container-fluid.content {
@@ -85,20 +96,8 @@ so, incrementally, there will be white space around the content */
 
 
 
-/* About Me
+/* About
 -------------------------------------------------- */
-/*.portrait {
-  width: 100%;
-  max-width: 560px;
-  clear: left;
-  padding-bottom: 10px;
-
-
-}
-*/
-/*.about_me {
-  max-width: 560px;
-}*/
 
 .about_banner {
   width: 100%;
