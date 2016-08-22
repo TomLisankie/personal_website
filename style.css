@@ -179,6 +179,16 @@ p.about {
   right: 0;
 }
 
+
+/* Individual Project Pages
+-------------------------------------------------- */
+.project_video {
+  padding-top: 5px;
+  padding-right: 15px;
+}
+
+
+
 /* CV
 -------------------------------------------------- */
 
