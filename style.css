@@ -43,10 +43,11 @@ a:hover {
 
 }
 
+.spacing_small {
+  padding-bottom: 10px;
 
-/*.container-fluid.content {
-  min-height: 100vh - 500px;
-}*/
+}
+
 
 /* Nav bar
 -------------------------------------------------- */
@@ -283,8 +284,10 @@ p.cv_description_list {
 .social [class*="fa fa-"] {
   display: inline-block;
   width: 100%;
-  background-color: rgb(51, 51, 51);
+  background-color: #cacaca;
+  /*background-color: rgb(51, 51, 51);*/
   border-radius: 100px;
+  color: rgb(50, 50, 50);
   color: #fff;
   height: 50px;
   line-height: 50px;
@@ -303,9 +306,11 @@ p.cv_description_list {
 a:hover.fa,
 a:active.fa,
 a:focus.fa {
-  color: rgb(51, 51, 51);
+  /*color: rgb(51, 51, 51);*/
+  color: #cacaca;
   text-decoration: none;
-  background-color: #cacaca;
+  background-color: rgb(50, 50, 50);
+  /*background-color: #cacaca;*/
   -webkit-transition: color 0.5s;
   -moz-transition:    color 0.5s;
   -ms-transition:     color 0.5s;
@@ -329,7 +334,6 @@ a:focus.fa {
 
 html {
   position: relative;
-  min-height: 100%;
 }
 
 .footer {
@@ -337,13 +341,31 @@ html {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 40px;
-  background-color: white;
+  height: 30px;
   padding-left: 15px;
   font-family: raleway, sans-serif;
+  padding-top: 40px;
 }
 
+.col-md-12.footer_divider {
+  width: 100%;
+  height: 1px;
+  background-color: #eee;
+  /*margin-left: 15px;*/
+  margin-right: 15px;
+  margin-bottom: 20px;
+  /*margin-top: 30px;*/
+}
 
+.footer_divider_outer {
+  /*margin-ri*/
+  margin-right: 15px;
+}
+
+.footer_text {
+  color: #777;
+  font-size: 12;
+}
 
 
 
