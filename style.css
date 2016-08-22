@@ -38,6 +38,10 @@ a:hover {
   text-decoration: none;
 }
 
+.spacing {
+  padding-bottom: 30px;
+
+}
 
 
 /*.container-fluid.content {
@@ -77,6 +81,14 @@ a:hover {
   font-size: 13px;
 }
 
+.navbar-default .navbar-nav>li>a:hover {
+  color: black;
+}
+
+.navbar-default .navbar-nav>li.active_nav>a {
+  color: black;
+}
+
 /* the breakpoint for when the navbar turns into a dropdown */
 @media (max-width: 768px) {
   .navbar-default .navbar-nav>li>a {
@@ -99,7 +111,6 @@ so, incrementally, there will be white space around the content */
     margin: 0px 35px 0px 35px;
   }
 }
-
 
 
 /* About
