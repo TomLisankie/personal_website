@@ -182,10 +182,18 @@ p.about {
 
 /* Individual Project Pages
 -------------------------------------------------- */
+/* NOTE: standard image ratio in this section is 970 : 600 */
+
 .project_video {
   padding-top: 5px;
   padding-right: 15px;
   padding-bottom: 15px;
+}
+
+.project_images {
+  padding-top: 5px;
+  padding-bottom: 15px;
+  width: 100%;
 }
 
 .frame_button_wrapper {
