@@ -242,6 +242,10 @@ a:focus.frame_button {
   padding-bottom: 10px;
 }
 
+.under_construction {
+  color: #d26161
+}
+
 
 /* CV
 -------------------------------------------------- */
@@ -331,6 +335,13 @@ p.cv_description_list {
   padding-top: 2px;
 }
 
+
+/* for project videos already embedded inside a col-md-9 column */
+.col-md-12.project_video {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 30px;
+}
 
 /* Contact
 -------------------------------------------------- */

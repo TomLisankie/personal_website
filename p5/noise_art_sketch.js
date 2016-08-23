@@ -1,30 +1,19 @@
 var particles = [];
 // amount of particles per row
-var pPerRow = 210;
+var pPerRow = 150;
 var cIndex = 0;
 var noiseScale = 500;
 var totalFrames = 0;
 
 function setup() {
-  // colors = [
-  //   color(0, 160, 250, 60),
-  //   color(0, 150, 250, 60),
-  //   color(60, 250, 255, 60),
-  //   color(20, 150, 255, 60),
-  //   color(255, 150, 0, 60),
-  //   color(200, 190, 0, 60),
-  //   color(250, 190, 0, 60)
-  // ];
-
-
-    colors = [
-    color(0, 160, 250, 220),
-    color(0, 150, 250, 220),
-    color(60, 250, 255, 220),
-    color(20, 150, 255, 220),
-    color(255, 150, 0, 220),
-    color(200, 190, 0, 220),
-    color(250, 190, 0, 220)
+  colors = [
+    color(0, 160, 250, 60),
+    color(0, 150, 250, 60),
+    color(60, 250, 255, 60),
+    color(20, 150, 255, 60),
+    color(255, 150, 0, 60),
+    color(200, 190, 0, 60),
+    color(250, 190, 0, 60)
   ];
 
   createCanvas(
@@ -37,8 +26,6 @@ function setup() {
 }
 
 function draw() {
-  background(0, 15);
-
   if (totalFrames >= 2000) {
     noLoop();
   }
