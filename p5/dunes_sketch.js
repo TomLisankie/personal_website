@@ -63,6 +63,12 @@ function setup() {
 }
 
 function draw() {
+  if (frameCount >= 190) {
+    console.log("stopped");
+    noLoop();
+
+  }
+
   particles.forEach(function(particle) {
     particle.move();
     particle.render();
