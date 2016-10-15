@@ -49,8 +49,8 @@
         <li id="cv"><a href="cv.html">CV</a></li>
         <li id="teaching"><a href="teaching.html">TEACHING</a></li>
         <li id="contact"><a href="contact.html">CONTACT</a></li>
-
       </ul>
+
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
@@ -59,13 +59,27 @@
 
 <!----------------------------- Body ------------------------------>
 
+<style>
+/* Terribly hacky----but only make height 100% if it's Firefox, and the screen is
+   at the point where the nav bar turns into a drop-down.
+   This is how to get around the disaparate styling between Firefox and Chrome
+   and the different needs for the contact vs about page.
+*/
+@-moz-document url-prefix() {
+  @media (min-width: 768px) {
+    body {
+      height: 100%;
+    }
+  }
+}
+
+</style>
+
   <input type="hidden" value="about" class="page_name">
   <img src="images/emily_xie_about_banner.jpg" class="about_banner">
-  <div class="container-fluid content">
+    <div class="container-fluid content">
       <div class="col-md-6 about_me">
 
-<!--         <p class="heading about">
-        Hi, I'm Emily Xie. I'm a software engineer living in NYC. My interests lie where code, art, and pedagogy intersect.</p> -->
       <p class="heading about">
         Hi, I'm Emily Xie. I'm a software engineer living in NYC. My primary interests are code, art, and pedagogy.</p>
      </div>

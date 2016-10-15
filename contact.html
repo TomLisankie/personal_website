@@ -58,6 +58,19 @@
 
 <!----------------------------- Body ------------------------------>
 
+<style>
+/* Terribly hacky----but only make height 100% if it's Firefox.
+   This is how to get around the disaparate styling between Firefox and Chrome
+   and the different needs for the contact vs about page.
+*/
+@-moz-document url-prefix() {
+  body {
+    height: 100%;
+  }
+}
+
+</style>
+
 <input type="hidden" value="contact" class="page_name">
 <div class="container-fluid">
   <div class="col-md-12 content contact">

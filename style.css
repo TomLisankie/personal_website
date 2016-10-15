@@ -6,8 +6,8 @@ body {
   /* so this means I might have to change the padding top for body based on what I have for navbar"
   /* maybe makes a difference once I go */
   padding-top: 120px;
-  height: 100%;
 }
+
 
 p {
   font-family: raleway, sans-serif;
@@ -290,7 +290,6 @@ p.cv_description {
 
 /* the container for heading details */
 .cv_heading_details {
-  /*text-align: right;*/
   vertical-align: bottom;
   padding-top: 5px;
 }
@@ -303,7 +302,6 @@ p.cv_heading_details {
   vertical-align: bottom;
   text-align: right;
   font-weight: 300;
-  /*color: #9e9d9d;*/
 }
 
 @media (max-width : 991px) {
@@ -314,7 +312,6 @@ p.cv_heading_details {
 
 
 .col-md-12.cv_divider {
-  /*width: 100%;*/
   height: 1px;
   background-color: #eee;
   margin-left: 15px;
@@ -427,10 +424,8 @@ html {
   width: 100%;
   height: 1px;
   background-color: #eee;
-  /*margin-left: 15px;*/
   margin-right: 15px;
   margin-bottom: 20px;
-  /*margin-top: 30px;*/
 }
 
 .footer_divider_outer {
