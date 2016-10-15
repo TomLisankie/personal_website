@@ -6,6 +6,7 @@ body {
   /* so this means I might have to change the padding top for body based on what I have for navbar"
   /* maybe makes a difference once I go */
   padding-top: 120px;
+  height: 100%;
 }
 
 p {
@@ -433,7 +434,6 @@ html {
 }
 
 .footer_divider_outer {
-  /*margin-ri*/
   margin-right: 15px;
 }
 
