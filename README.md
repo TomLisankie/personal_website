@@ -1,4 +1,4 @@
-# personal_portfolio_xie
-Code for my personal portfolio.
+# Personal Website
+Code for my personal website **(under construction)**.
 
-Deployed at: http://xie-emily.com
+Deployed at: http://tomlisankie.come
